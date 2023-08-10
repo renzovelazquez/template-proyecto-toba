@@ -19,8 +19,14 @@ docker exec -it <NOMBRE PROYECTO> bash
  * Instalar Pre-requisitos usando las siguientes guias:
    - [Composer](https://getcomposer.org/download/)
    - [Yarn](https://classic.yarnpkg.com/en/docs/install#debian-stable) 
-   - [Git](https://git-scm.com/download/linux) 
-
+   - [Git](https://git-scm.com/download/linux)
+* by Renzo
+como instalar estos requisitos en alpine:
+```Shell
+apk --update  add curl git yarn \
+curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer 
+```
+ 
  * Ejecutar en la carpeta el comando  
 ```shell
 cd /var/local/<NOMBRE PROYECTO>
