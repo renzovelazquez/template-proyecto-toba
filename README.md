@@ -25,7 +25,7 @@ como instalar estos requisitos en alpine:
 ```Shell
 apk --update  add curl git yarn
 ```
-Instalar composer
+* Instalar composer
 ```
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer 
 ```
