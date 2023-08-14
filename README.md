@@ -23,7 +23,10 @@ docker exec -it <NOMBRE PROYECTO> bash
 * by Renzo
 como instalar estos requisitos en alpine:
 ```Shell
-apk --update  add curl git yarn \
+apk --update  add curl git yarn
+```
+Instalar composer
+```
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer 
 ```
  
