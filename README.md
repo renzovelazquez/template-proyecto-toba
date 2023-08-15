@@ -39,6 +39,10 @@ composer install
 ```shell
 bin/toba instalacion instalar
 ```
+Ejecutar el siguiente comando como dentro del contenedor (by renzo) 
+``shell
+    ln -s /var/local/docker-data/app-toba-instalacion/toba.conf  /etc/apache2/conf.d/toba_3_3.conf
+``
  * Ejecutar el comando  
 ```shell
 bin/crear-proyecto.sh
